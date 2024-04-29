@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8B16B36-F35F-1A2F-6B1D-E52FDF551BCC" name="TBL_LISTAS_REPRODUCCION">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:07:49 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>LRN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_lista" id="2F27BCE8-6AEF-92BC-ED30-0C4B939C8C8B">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:09:41 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="369416B6-DB3B-0481-233C-6AC6E37C75F2">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:10:01 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_perfil" id="D6EC2B5C-B6E8-7DFC-7E8D-F93DA679FA1C">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:22:05 UTC</createdTime>
+<generatorID>D50A969D-A2A4-B270-590B-59A55E3D3FBB</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<referedAttribute>37FFCC04-725D-E01F-5C9A-FF95BFBA2892</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CC06E9E-1BA3-F5CA-2626-DD0348206D03" name="TBL_LISTAS_REPRODUCCION PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:10:00 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F27BCE8-6AEF-92BC-ED30-0C4B939C8C8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

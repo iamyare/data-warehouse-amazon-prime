@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96003BD5-8B83-5F45-0651-F8C0A9907A69" name="TBL_PERFILES">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>6DCC0CAF-D509-4212-20B3-29F2AB28F78A</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>PFS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_perfil" id="05303431-156E-9177-D761-394EAF0A53D7">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>37FFCC04-725D-E01F-5C9A-FF95BFBA2892</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="EDA32687-21B3-1F8B-74F5-8681DBA611B9">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>A0C67D15-E7D6-6F28-C67E-7BFA69C8D287</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="FDBF04C2-D3D4-5D5F-409F-1CFDCBE335D0">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>6670E425-449E-E79E-129A-3946CC92FF2E</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url_foto" id="9A8FBF62-69C3-2FE9-40B6-62CF8766C34F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>2FCB6C55-2128-189B-34EE-6930DF9C47BA</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_SUSCRIPTORES_ID_suscriptor" id="70F40578-B442-C6E8-9FF6-A133C1D8803A">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>74D927B4-D78D-13F5-B412-43D5C46F0A3E</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_SUSCRIPTORESv1_ID_suscriptor" id="1C2611C4-5DC8-4DFE-4709-281F1200D0AA">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>3D4DCB47-7500-5C36-17F6-ED9E58E05C40</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D29A09B9-27C2-280C-9A74-63855674F904" referredColumn="F9B7DEAA-C31A-FD51-7561-A363F0C81F4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F5D321B-1D03-177A-E5D6-4EE4677D2A77" name="TBL_PERFILES_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>5B6FA500-0CDD-0F96-EBE1-01488F781BA3</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05303431-156E-9177-D761-394EAF0A53D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70FADA79-CF29-B253-8057-631126A206A2" name="TBL_PERFILES_TBL_SUSCRIPTORESv1_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>5D9101A0-2DC0-1AC5-0E86-8EB834EDC54F</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C2611C4-5DC8-4DFE-4709-281F1200D0AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

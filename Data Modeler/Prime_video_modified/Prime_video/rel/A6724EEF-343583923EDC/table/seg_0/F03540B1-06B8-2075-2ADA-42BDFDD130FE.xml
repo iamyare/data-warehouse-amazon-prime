@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F03540B1-06B8-2075-2ADA-42BDFDD130FE" name="TBL_LICENCIAS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>1957D12A-585C-199C-76FF-3CC3FCFE1B04</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>LCS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_licencia" id="DCBB4622-AFB3-C6F2-FF97-C27B507A7418">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>D4595E8B-E729-6270-91C6-AAEECEA58929</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="31A92957-5AFE-0AA0-35EE-6B7E0E87A4DB">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>D21B46EC-FA8F-1137-E456-8AC0DA0A0EEA</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="D0E5A811-4C4F-20AF-8E24-25B174788321">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>86BEB25A-C1CA-B9F5-448F-85DCA84F61F0</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarifa" id="1E300412-5AAA-94AA-913C-871EF8A98BE6">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>2079253E-C962-0108-8954-C482563320F2</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="440FEC81-7570-BD46-AD59-A80AF64F709D">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>2BF5765C-044F-AC22-86AC-345F4C54F7C9</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_CONTENIDO_ID_contenido" id="D674988F-F922-44AB-B06D-681136B026D0">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>269ED9AF-44F4-5A77-B0D1-5E71CDC103D9</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0C38FC6-96E3-345E-311F-0BBE1D2AB656" referredColumn="11E010CB-04E9-B627-467A-9701489843E2"/>
+</associations>
+</Column>
+<Column name="TBL_PROVEEDORES_ID_proveedor" id="BD4C21A6-E697-4691-4BEC-C43137B8EB47">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>3FECC90E-8455-8C23-B319-24FFC42BAFD4</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3BA9990-DD89-2FB9-9AF5-A05A50433365" referredColumn="B2ED787A-BB54-76DA-0929-0A9A3569A4FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEC526C3-B386-C44A-EC15-FB5929EA9CDF" name="TBL_LICENCIAS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>96CBA88C-B6C5-AEC4-B381-9B12769449C0</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBB4622-AFB3-C6F2-FF97-C27B507A7418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8CDE30C-89A3-657C-2A90-E6AE24B0862A" name="TBL_LICENCIAS_TBL_PROVEEDORES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>2158EAA9-68E1-542F-8721-82FD8E2E8A5D</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD4C21A6-E697-4691-4BEC-C43137B8EB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0536B1A9-C0C2-F2E6-E1C4-8C435686D897" name="TBL_LICENCIAS_TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>6A9007F7-0860-02A2-F79D-C7E849284A9C</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D674988F-F922-44AB-B06D-681136B026D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

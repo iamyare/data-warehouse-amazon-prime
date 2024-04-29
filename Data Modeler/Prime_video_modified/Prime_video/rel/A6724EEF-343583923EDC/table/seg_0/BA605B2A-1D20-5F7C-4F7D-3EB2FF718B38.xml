@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA605B2A-1D20-5F7C-4F7D-3EB2FF718B38" name="TBL_VALORACIONES">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:39:57 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<abbreviation>VLS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="puntaje" id="BCFAE6D8-1FE0-0FCA-C827-A60C08BBF3B5">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:40:22 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="23B1FB7E-3126-0DEB-E19D-DD32445F0B7C">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:40:46 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_SUSCRIPTORES_ID_suscriptor" id="E497E6CC-74C0-4BFB-290B-75815E60211E">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:42:27 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E2380D2-2A24-2CBD-5D4E-AD9A609DA7A3" referredColumn="F9B7DEAA-C31A-FD51-7561-A363F0C81F4D"/>
+</associations>
+</Column>
+<Column name="TBL_CONTENIDO_ID_contenido" id="A2B2B37E-EE5A-79D8-E213-BDB244479045">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:42:51 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D46A5E5C-F5CB-A36C-F38A-463F84CF2118" referredColumn="11E010CB-04E9-B627-467A-9701489843E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5317273A-25DF-1A21-7626-6548FA3B46F3" name="TBL_VALORACIONES_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:42:45 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E497E6CC-74C0-4BFB-290B-75815E60211E"/>
+<colUsage columnID="A2B2B37E-EE5A-79D8-E213-BDB244479045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00C4474F-F933-E4C5-AB48-DBB1C165449D" name="TBL_VALORACIONES_TBL_SUSCRIPTORES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:42:27 UTC</createdTime>
+<generatorID>92874DCA-E54B-4A61-482D-BBF90B140F1F</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E497E6CC-74C0-4BFB-290B-75815E60211E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68F9B93B-E256-1BE8-1FBC-1D831F2926F5" name="TBL_VALORACIONES_TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:42:51 UTC</createdTime>
+<generatorID>5C8D0E9F-8EA5-3FA9-ADAD-F1518D2F37CD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2B2B37E-EE5A-79D8-E213-BDB244479045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

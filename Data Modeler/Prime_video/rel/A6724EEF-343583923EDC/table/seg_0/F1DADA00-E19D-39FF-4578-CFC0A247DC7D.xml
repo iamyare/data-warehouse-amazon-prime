@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1DADA00-E19D-39FF-4578-CFC0A247DC7D" name="TBL_PROVEEDORES">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>B45DBDB7-EC3A-5503-81AF-95D5B91D6C2D</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>PVS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_proveedor" id="B2ED787A-BB54-76DA-0929-0A9A3569A4FC">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>336F4781-5676-1789-F91A-5CD89A8EF974</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="252EC876-45DD-7ABF-8444-ABDE0A2B1642">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>EA87828B-7B56-06A6-EA76-ADF32E17BEB9</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="772509B3-3634-2909-BC5B-BA07EF9C6F97">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>11D1EEF5-29C9-AAAB-837B-E51759EB3722</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="0B957019-4AA5-D25A-5238-4AFBCCBDBD2A">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>3E0B3ED0-5416-D47E-0A9E-752DFC252439</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C4B2E88-FA7B-7464-E350-3CAE2780F4AC" name="TBL_PROVEEDORES_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>D54ADA81-8417-83F1-352B-5260096FBF2C</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2ED787A-BB54-76DA-0929-0A9A3569A4FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

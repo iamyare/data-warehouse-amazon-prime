@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0746D17F-F3B2-446F-6D64-FE6077DDAD16" containerWithKeyObject="96003BD5-8B83-5F45-0651-F8C0A9907A69" localFKIndex="8EBE97BD-47EB-963C-185F-FF8EF39724B9" name="TBL_PERFILES_TBL_SUSCRIPTORES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>0B8239CD-70E9-BA88-AA3A-5E33374BAE8C</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_SUSCRIPTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>341482A7-A859-FCF9-042D-9DDC7C800B86</referredTableID>
+<keyObject>A39ECBD7-16A1-989B-ABAE-29E6EEB88CF0</keyObject>
+<referredKeyID>A39ECBD7-16A1-989B-ABAE-29E6EEB88CF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_suscriptor</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

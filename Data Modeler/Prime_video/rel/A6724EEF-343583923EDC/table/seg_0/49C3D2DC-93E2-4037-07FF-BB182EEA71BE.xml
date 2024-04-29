@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49C3D2DC-93E2-4037-07FF-BB182EEA71BE" name="TBL_CAPITULOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>29C66119-BE9C-6C8A-3150-1B0750C7CF60</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>CPS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_capitulo" id="56C7C690-92DA-0496-F4EA-60D314660A21">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>DFCC4BA8-5CD3-01EA-C199-18A30D7D5E22</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temporada" id="5A5673BE-EC91-5BCA-1FB0-3F91E6ABC77B">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>B437042E-99A8-9B2B-8FCD-93C77D7CA6A3</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="57C88188-1FC6-89F8-2349-C4CAF4D6171F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>4CAB7D4F-C105-6847-10A9-994856A99BEA</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="62FA3A3C-90FB-5D6F-FD72-4C6F2CF28A1F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>4E762479-CD02-F380-E757-21C1ACFEF7DE</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_lanzamiento" id="4D060A33-4200-0F39-E374-215FD4D2B1C7">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>93F64DE6-255E-090E-0384-1B94DBF5D110</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valoracion" id="15A04EC6-4051-961C-F6CF-107EB094A292">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>E74362DA-8843-89F8-B19E-4B2362EE3F60</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_CONTENIDO_ID_contenido" id="3F891453-1F89-132E-1D78-A62202C13FB4">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>4B7A2F7C-0AB4-AEF1-84F4-354A201CDFED</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD5DDD3-360C-3C95-C796-8B9B615D6B83" referredColumn="11E010CB-04E9-B627-467A-9701489843E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3005BEEF-3882-E18B-8689-B61F44743FEE" name="TBL_CAPITULOS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>0A4F5115-55E6-0FCC-0668-82136DA177D3</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56C7C690-92DA-0496-F4EA-60D314660A21"/>
+<colUsage columnID="5A5673BE-EC91-5BCA-1FB0-3F91E6ABC77B"/>
+<colUsage columnID="3F891453-1F89-132E-1D78-A62202C13FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0ABA2A9-903C-EF55-3D6D-E790DC7132A4" name="TBL_CAPITULOS_TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>E91B6704-C96D-B59B-294D-B6A8BE238B96</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F891453-1F89-132E-1D78-A62202C13FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

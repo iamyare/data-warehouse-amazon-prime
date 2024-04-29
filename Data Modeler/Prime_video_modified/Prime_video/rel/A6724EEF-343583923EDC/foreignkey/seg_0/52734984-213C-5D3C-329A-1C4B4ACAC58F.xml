@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52734984-213C-5D3C-329A-1C4B4ACAC58F" containerWithKeyObject="C579E33C-1DB7-303C-AE52-FA401291E066" localFKIndex="D2897DA6-8C3A-8E12-D62E-09670912C9CE" name="TBL_EPS_CGS_TBL_CARGOS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>6135864B-4EE2-8B48-8357-306354FDDB75</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_CARGOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02CEA09B-9B78-48BD-22D6-E849CB760316</referredTableID>
+<keyObject>E864A980-3681-3C3E-7C83-E040182B57D4</keyObject>
+<referredKeyID>E864A980-3681-3C3E-7C83-E040182B57D4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_cargo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

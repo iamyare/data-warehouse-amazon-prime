@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FB9EED9-8D50-9FD1-6A89-D724EC1E0069" name="TBL_ACTORES">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:29:34 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ATS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_actor" id="8FFDDBA4-6EFB-7EB7-01D3-27F8E1791F40">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:31:15 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="A5B9F45A-61BC-F4D0-4B54-803F1D02460F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:31:47 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="B68B6844-CD32-44DB-E61E-C0E91552F7F0">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:32:07 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="B6BE8F5E-2CDA-6B8B-DE64-187B9CAB16EE">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:32:20 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="9A546E05-E1A3-61A9-B999-750C3356A2D2">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:33:56 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="A81CE125-F16A-6670-296A-2461BDA71A2F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:34:19 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_foto" id="8F4CA4CC-442C-E893-3A7B-78F23577A8F7">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:34:34 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="873535CC-FA23-61C4-4F42-1861E08F599E" name="TBL_ACTORES PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:31:45 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FFDDBA4-6EFB-7EB7-01D3-27F8E1791F40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

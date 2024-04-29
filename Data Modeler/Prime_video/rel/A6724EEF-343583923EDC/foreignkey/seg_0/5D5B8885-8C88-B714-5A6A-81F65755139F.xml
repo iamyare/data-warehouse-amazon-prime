@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D5B8885-8C88-B714-5A6A-81F65755139F" containerWithKeyObject="C2D3D988-68CE-3754-9766-9A4AE2C0399D" localFKIndex="5269B669-5217-A1D3-01D6-4BD6A7D803A2" name="Relation_16_TBL_HISTORIALES_REPRODUCCION_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>C9EF62D2-2751-B7A2-F621-694F8D98E8C5</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_HISTORIALES_REPRODUCCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7F7F20F-0F0E-BC89-DCFB-086880946480</referredTableID>
+<keyObject>05408282-EA24-E1C2-D4D8-756538F22B49</keyObject>
+<referredKeyID>05408282-EA24-E1C2-D4D8-756538F22B49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_historial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

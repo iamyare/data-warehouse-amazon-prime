@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="extender" directorySegmentName="seg_0" id="2158EAA9-68E1-542F-8721-82FD8E2E8A5D">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 21:59:53 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<sourcePk>D54ADA81-8417-83F1-352B-5260096FBF2C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B45DBDB7-EC3A-5503-81AF-95D5B91D6C2D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1957D12A-585C-199C-76FF-3CC3FCFE1B04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

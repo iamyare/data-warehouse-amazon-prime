@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82BDAB37-EBCA-29B1-22BE-B0C780354E5F" name="TBL_SUSCRIPTORES">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>4BD90644-1208-134F-8650-1CE64EC5CC39</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>tbl_suscriptoresv1</ordsAlias>
+<abbreviation>SCS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_suscriptor" id="F9B7DEAA-C31A-FD51-7561-A363F0C81F4D">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>010FF8BC-5E82-1359-C232-CC9E2A9CAA7A</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B84745E9-E1D4-7407-E6EB-B250C1C6439F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>DFCEC0D5-0040-6DC4-DE15-86A084085199</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="BB8506E7-E38B-C9B2-47A0-CE3A3D5EADC9">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>B0DBE328-B10B-A4DD-FF8F-360F992C894A</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="3B8A35BB-7A54-3C80-3BF9-CC8E7506387F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>1F80D601-A521-619B-2FF5-87D53A378A47</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="490C19CD-954C-12F2-2535-575A9F5529B3">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>5F7C4F94-7A67-08B6-2370-354C693D9230</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="723F2707-7353-5C8D-1D26-7C5096AD3F14">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>320A4CAA-DAB5-E183-8FD5-D7CB77D4E497</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_celular" id="1C90584C-64DD-81B0-8843-4A177015E0C4">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>058B466B-9EC4-460E-F81A-77E33B2F5802</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="FB9A873E-4762-90F4-FACB-EC43A09C7502">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>5348B03A-8614-AA55-8F68-04B16AD5DBBB</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenia" id="62822E61-B71D-5008-A39A-A0A3F390468B">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>FFC3C52A-F8AA-CE5D-BD49-B5B228C1FBEC</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EEAA4AF-CA6B-8EE8-C490-EF42B9377AB8" name="TBL_SUSCRIPTORESv1_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>92874DCA-E54B-4A61-482D-BBF90B140F1F</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B7DEAA-C31A-FD51-7561-A363F0C81F4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F48AFCD-CDA7-930F-06DB-591491A8C4E1" name="TBL_SUSCRIPTORESv1_TBL_SUSCRIPCIONES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>86576AAC-1610-7E19-CAB0-40755628D774</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

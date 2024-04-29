@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02CEA09B-9B78-48BD-22D6-E849CB760316" name="TBL_CARGOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:22:30 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cargo" id="296C9B44-7C7E-2FEA-9AE4-6D5CD6857911">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:24:03 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="FADC3D51-F567-D87A-3E4B-1D331C0BE405">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:25:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[cargo del empleado puede ser Especialistas en seguridad, Especialistas en atención al cliente,Gerentes de producto, Analistas de datos, Especialistas en recursos humanos o Especialistas en soporte técnico.]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E864A980-3681-3C3E-7C83-E040182B57D4" name="TBL_PUESTOS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:24:03 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="296C9B44-7C7E-2FEA-9AE4-6D5CD6857911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

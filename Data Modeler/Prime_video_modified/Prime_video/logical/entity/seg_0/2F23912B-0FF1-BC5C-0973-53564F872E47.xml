@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F23912B-0FF1-BC5C-0973-53564F872E47" name="TBL_HISTORIAL_ACCESOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:46:36 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>HAS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_acceso" id="50D4C700-C5A0-0C43-ECE9-235656A270E5">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:50:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha y hora del acceso a la plataforma ]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cierre_sesion" id="DEF25D39-40B0-0F65-8ECD-6B17C668D275">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:53:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la cual se cierra la sesión]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dispositivo" id="AD76CB67-D3AF-DF64-ED6F-43FE98433949">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:51:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dispositivo de acceso, tablet, laptop, movil]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="DD7CDB0E-FAF5-9E78-6D09-3287B3634562">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:52:13 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_suscriptor1" id="873015DC-90EA-38CB-A33E-DC6859BB28ED">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 22:05:24 UTC</createdTime>
+<generatorID>D2964428-3E22-E66C-3C77-ADFE5EC00609</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<referedAttribute>E1B4C388-1931-3C96-6129-EE725B5719EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="388D1C11-3763-A099-D722-E6AC316B24C4" name="TBL_HISTORIAL_ACCESOS PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:50:16 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50D4C700-C5A0-0C43-ECE9-235656A270E5</attributeRef>
+<attributeRef>873015DC-90EA-38CB-A33E-DC6859BB28ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TBL_CTO_HR" directorySegmentName="seg_0" id="C9EF62D2-2751-B7A2-F621-694F8D98E8C5">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:19:28 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>961E08EE-3700-F166-5B87-51319C0CF3CC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F032C17-4E01-506E-9D26-B2C26FEA76EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha visualizacion" id="1D37C13F-71D0-FF8A-802A-866FF5CD794E">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:19:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

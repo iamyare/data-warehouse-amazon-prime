@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB0BC42D-ECAE-8CA6-8DB3-10E355A699B2" name="TBL_HISTORIAL_ACCESOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>2F23912B-0FF1-BC5C-0973-53564F872E47</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>HAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha_acceso" id="4A08A799-B829-FD64-FC63-AAC2885A0B76">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha y hora del acceso a la plataforma ]]></commentInRDBMS>
+<generatorID>50D4C700-C5A0-0C43-ECE9-235656A270E5</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_cierre_sesion" id="68B5F262-2219-A38F-9B0F-51CED25E4531">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la cual se cierra la sesión]]></commentInRDBMS>
+<generatorID>DEF25D39-40B0-0F65-8ECD-6B17C668D275</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dispositivo" id="A4AFDD85-EFF2-204A-062D-ED087C93C86A">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dispositivo de acceso, tablet, laptop, movil]]></commentInRDBMS>
+<generatorID>AD76CB67-D3AF-DF64-ED6F-43FE98433949</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="0889CD81-B800-B7D1-496D-65EC95E4380E">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>DD7CDB0E-FAF5-9E78-6D09-3287B3634562</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_SUSCRIPTORES_ID_suscriptor" id="9CEC6E1F-F9F8-015D-C202-E6EC3176EBC0">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>0B459FB4-AE88-4DC9-EFB0-C32B8DD92183</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB4F2DB5-2B53-E157-612F-5CE5AD537E81" referredColumn="F9B7DEAA-C31A-FD51-7561-A363F0C81F4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EA84D98-B600-0403-379F-E3E7764A40C5" name="TBL_HISTORIAL_ACCESOS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>388D1C11-3763-A099-D722-E6AC316B24C4</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CEC6E1F-F9F8-015D-C202-E6EC3176EBC0"/>
+<colUsage columnID="4A08A799-B829-FD64-FC63-AAC2885A0B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58A0A3F6-3648-5D27-1274-0C670ECEEC1F" name="TBL_HISTORIAL_ACCESOS_TBL_SUSCRIPTORESv1_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>D2964428-3E22-E66C-3C77-ADFE5EC00609</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CEC6E1F-F9F8-015D-C202-E6EC3176EBC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB05B5E9-692B-AA2E-8BAE-B22880A00D19" name="TBL_SUSCRIPCION_TARJETA">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>suscripcion_tarjeta</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_SUSCRIPTORES_ID_suscriptor" id="BC9CC376-D789-6097-B7EA-8CB764BFDF2F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="586C47F3-F842-F938-04C3-9192B89DA2EC" referredColumn="4BE80CE2-DE79-F5F1-31FD-095DB1DF7A95"/>
+</associations>
+</Column>
+<Column name="TBL_TARJETAS_numero_tajeta" id="A0F3E3CC-D950-6910-F907-2B55B090B208">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C634F0EC-C6A9-DD74-5F9D-2F50C0A436E2" referredColumn="5F070941-0EA3-687E-391C-B55ABDFFFB27"/>
+</associations>
+</Column>
+<Column name="fecha_vinculacion" id="2EF9C043-AD50-E1D6-9322-00DC53B6F45A">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>A9EBA6F1-A222-C116-4A85-E2EA5301DE1C</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_desvinculacion" id="9882BD6C-D995-A3E9-CFB1-F3509116281A">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>8FEDEF7D-28E3-66C3-7CC4-A8EA9C7BA149</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59B8EC63-97FF-9755-E6D6-F2A511071362" name="suscripcion_tarjeta_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC9CC376-D789-6097-B7EA-8CB764BFDF2F"/>
+<colUsage columnID="A0F3E3CC-D950-6910-F907-2B55B090B208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F3BC12E-07EC-D520-6EBC-ACD97B55CBB7" name="suscripcion_tarjeta_TBL_SUSCRIPTORES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>46FED699-2151-C52A-48D4-C4A17E090BFD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC9CC376-D789-6097-B7EA-8CB764BFDF2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2168BA7-6223-D4B0-89CC-6769FD03A82E" name="suscripcion_tarjeta_TBL_TARJETAS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>46FED699-2151-C52A-48D4-C4A17E090BFD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0F3E3CC-D950-6910-F907-2B55B090B208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

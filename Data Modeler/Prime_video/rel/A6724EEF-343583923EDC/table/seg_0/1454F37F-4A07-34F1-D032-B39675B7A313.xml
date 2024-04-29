@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1454F37F-4A07-34F1-D032-B39675B7A313" name="TBL_PAGOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>FD8A6F57-774F-11B6-7483-A02B8A87D588</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>PG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pago" id="2513D660-0D4F-4955-FD82-1E5820E02F79">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>1351BEDB-5936-EEC6-301F-73FD3B950CAE</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="9B7FF960-E00B-0131-F84B-020325E91922">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>90CE0021-8427-1B2E-7F32-C8464C28EDC6</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="7831AD46-9BB1-3034-0FB1-FEBDC217A3EE">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>E825CBF7-99CC-A19C-2E2F-1CBABAA37252</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_SUSCRIPTORES_ID_suscriptor" id="E546489C-5E9E-AD3D-4863-EF4C2CE50B86">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>F6BF2D6D-AEBD-8E53-CF5D-368A6BD05F17</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2990E9DB-32F4-D9FD-09D8-30F86B84F505" referredColumn="4BE80CE2-DE79-F5F1-31FD-095DB1DF7A95"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF953518-96B9-583E-C443-D4EAA99C0B88" name="TBL_PAGOS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>318705BC-1A4F-6E9F-E8A3-996C4F45D924</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2513D660-0D4F-4955-FD82-1E5820E02F79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE3A03DD-71BE-3B6A-CB8A-D9B5F3E529E9" name="TBL_PAGOS_TBL_SUSCRIPTORES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>F914054C-D069-6AA7-DDB2-2719AC2F6E6D</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E546489C-5E9E-AD3D-4863-EF4C2CE50B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

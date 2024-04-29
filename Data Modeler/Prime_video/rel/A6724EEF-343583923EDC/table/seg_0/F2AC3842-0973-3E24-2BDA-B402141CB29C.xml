@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2AC3842-0973-3E24-2BDA-B402141CB29C" name="TBL_CTO_ATS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>interpretan</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_ACTORES_ID_actor" id="CA2D66BE-B5FE-6544-74F3-FD1E3FE3D25B">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="529BFBE2-A2BF-56B7-C318-5AFFED6C7ECD" referredColumn="849259BC-7483-D211-53FE-C57C87FA29F7"/>
+</associations>
+</Column>
+<Column name="TBL_CONTENIDO_ID_contenido" id="4E8802D9-5D55-787B-A400-AA8FE16F4591">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A907E9B7-2303-AD30-F691-041CAA718EF7" referredColumn="11E010CB-04E9-B627-467A-9701489843E2"/>
+</associations>
+</Column>
+<Column name="papel" id="3CF70127-D5C8-449E-4620-64357A887B87">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>95AAC2B2-8DA5-1CAF-AF1C-3B2A7918399A</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="personaje" id="B42FD872-2FD2-C80C-4D5A-DAEACF98EF30">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>78A08969-8D4B-35A2-CEE0-520A6EA80F8D</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E06B48E5-03D3-6E71-4663-E9EF4FCF531F" name="interpretan_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2D66BE-B5FE-6544-74F3-FD1E3FE3D25B"/>
+<colUsage columnID="4E8802D9-5D55-787B-A400-AA8FE16F4591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A2F4534-7950-19B6-B295-45100DBEA9B5" name="interpretan_TBL_ACTORES_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>BE2C13FB-46A7-014B-CC07-21A20AF215FD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2D66BE-B5FE-6544-74F3-FD1E3FE3D25B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F153E5D3-DA43-F642-DB15-87597D74AE58" name="interpretan_TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>BE2C13FB-46A7-014B-CC07-21A20AF215FD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E8802D9-5D55-787B-A400-AA8FE16F4591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

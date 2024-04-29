@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75D8B910-9405-5534-E9B1-9122FD98FAC0" name="TBL_TICKETS_SOPORTE">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:37:39 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TSE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ticket" id="80306380-368B-9377-C543-25C88378C739">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:39:08 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="9C95A276-4843-3811-5E26-297BBFB69B35">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:39:20 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="3387D4C2-67A8-698F-A601-AB0BE5D5C7F6">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:39:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Una breve descripción del problema o la solicitud del usuario]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prioridad" id="B15535A2-20A1-EFCA-6192-B3AB031DA2FE">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:40:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nivel de prioridad del ticket, 3 niveles]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="2C76182D-1DBD-018F-40C5-A65F2DC854A4">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:41:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado del ticket (e.g resuelto, en curso, etc)]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni empleado" id="0FC11C84-5F11-CBA7-69D5-3F78FC7C2843">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 02:08:11 UTC</createdTime>
+<generatorID>C66D99AC-F410-AFA6-34C6-B084DC53D2A2</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<referedAttribute>566CC646-6C9E-966F-2103-335B3D648DF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_suscriptor" id="A0A80D58-BC85-3718-261E-E3B913677D61">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 22:05:24 UTC</createdTime>
+<generatorID>C528D324-F632-BAE0-064D-2964DFDB93B6</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<referedAttribute>E1B4C388-1931-3C96-6129-EE725B5719EC</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7873B4C7-609C-9949-A2A7-B66C4E1C2216" name="TBL_TICKETS_SOPORTE PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:39:16 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80306380-368B-9377-C543-25C88378C739</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

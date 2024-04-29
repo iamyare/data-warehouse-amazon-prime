@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33F7D923-5653-9D07-44B5-661A0BE1D94D" containerWithKeyObject="218C67B8-F02A-C00F-0281-841983DFAB09" localFKIndex="242F9183-E703-A570-4BEC-F7CC4A19BB7E" name="TBL_SALARIOS_TBL_EMPLEADOS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>14A273B8-808A-F57B-BCF5-BC61849C3409</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5599C31-7AE6-5709-1397-5B19925342BF</referredTableID>
+<keyObject>C0EDE9D6-D20E-B0C2-B824-6DBECF0FF185</keyObject>
+<referredKeyID>C0EDE9D6-D20E-B0C2-B824-6DBECF0FF185</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dni_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

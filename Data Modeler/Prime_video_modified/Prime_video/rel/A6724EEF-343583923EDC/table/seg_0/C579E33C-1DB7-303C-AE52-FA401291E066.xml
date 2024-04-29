@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C579E33C-1DB7-303C-AE52-FA401291E066" name="TBL_EPS_CGS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_EMPLEADOS_dni_empleado" id="F961A359-E28F-8E89-1FC6-D22AE93E0AA6">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AFEEBC1-5983-AA4C-3673-58CB0667252A" referredColumn="A8B2E731-D3B5-2649-4785-5594B69DC7AB"/>
+</associations>
+</Column>
+<Column name="TBL_CARGOS_ID_cargo" id="0DE13A55-53E1-307A-259C-8E46AF5E802F">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52734984-213C-5D3C-329A-1C4B4ACAC58F" referredColumn="296C9B44-7C7E-2FEA-9AE4-6D5CD6857911"/>
+</associations>
+</Column>
+<Column name="fecha_inicio" id="BA1FE7EA-B98F-C6B9-5626-B0BD102180F0">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la cual comienza el empleado en este puesto]]></commentInRDBMS>
+<generatorID>16A77911-0736-C97F-E47E-FD76C21A06E6</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecha_final" id="AEC1D70A-5377-76FA-AE31-33F23C651C16">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la cual finaliza  el empleado en este puesto]]></commentInRDBMS>
+<generatorID>5F2F8C30-E0E3-ECA9-F487-D1BFD03DF74E</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E4775E6-F2E2-E53F-2C93-424DA26ED0C7" name="TBL_EPS_CGS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F961A359-E28F-8E89-1FC6-D22AE93E0AA6"/>
+<colUsage columnID="0DE13A55-53E1-307A-259C-8E46AF5E802F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13C0D02A-CF08-2FF1-DBC0-C9CFC7C3A210" name="TBL_EPS_CGS_TBL_EMPLEADOS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>6135864B-4EE2-8B48-8357-306354FDDB75</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F961A359-E28F-8E89-1FC6-D22AE93E0AA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2897DA6-8C3A-8E12-D62E-09670912C9CE" name="TBL_EPS_CGS_TBL_CARGOS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>6135864B-4EE2-8B48-8357-306354FDDB75</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DE13A55-53E1-307A-259C-8E46AF5E802F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

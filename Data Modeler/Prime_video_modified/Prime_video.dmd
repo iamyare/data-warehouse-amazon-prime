@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Prime_video" id="70840A23-E5A6-96AE-7C4F-0C7EFB04FD62" version="3.5">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 18:14:39 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>70840A23-E5A6-96AE-7C4F-0C7EFB04FD62</designId>
+</OSDM_Design>

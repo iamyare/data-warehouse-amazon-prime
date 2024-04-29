@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62B6D04C-B205-C7D3-D301-3B60AA854006" name="TBL_SALARIOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:30:09 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SLS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_inicio" id="427DFA4E-1063-8EB4-7830-BE03B21460A1">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:30:31 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_final" id="AE19E8D7-6BE5-3B8E-76CC-C09769A13CFD">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:31:20 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="B6B40DE3-8D7A-56E7-76C9-06E44F3B5C11">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:31:31 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni empleado" id="283B2617-9FA0-4505-A821-FEB0D7C73003">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 02:05:13 UTC</createdTime>
+<generatorID>14A273B8-808A-F57B-BCF5-BC61849C3409</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<referedAttribute>566CC646-6C9E-966F-2103-335B3D648DF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8242B66D-1434-D516-DDA3-5B5489EBDFF2" name="TBL_SALARIOS PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:31:12 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>427DFA4E-1063-8EB4-7830-BE03B21460A1</attributeRef>
+<attributeRef>283B2617-9FA0-4505-A821-FEB0D7C73003</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

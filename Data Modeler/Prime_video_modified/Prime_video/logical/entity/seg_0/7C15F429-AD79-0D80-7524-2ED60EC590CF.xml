@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C15F429-AD79-0D80-7524-2ED60EC590CF" name="TBL EMPLEADOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<generatorID>F5599C31-7AE6-5709-1397-5B19925342BF</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EPS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dni empleado" id="566CC646-6C9E-966F-2103-335B3D648DF9">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[dni del empleado]]></commentInRDBMS>
+<generatorID>A8B2E731-D3B5-2649-4785-5594B69DC7AB</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="1617A6BD-C14C-37F3-0C0F-3D9A771AD134">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primer y segundo nombre del empleado]]></commentInRDBMS>
+<generatorID>4A8F873C-D526-2038-C257-1BF4F4A21809</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="829CB696-F7E7-71B8-EEDA-D4910066CC01">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellidos del empleado]]></commentInRDBMS>
+<generatorID>7C69CC47-C5D4-A444-616D-5A3C4100D912</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="FC1A250B-40A6-D986-4FB1-8882EDD64CE9">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Genero del empleado (F o M)]]></commentInRDBMS>
+<generatorID>A438B0C8-3C4C-C25D-DF99-F344645CFC82</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="13F3C7B6-FF52-94A5-3B9C-E48A538C2FDA">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de nacimiento del empleado]]></commentInRDBMS>
+<generatorID>714E8799-7C21-F0B2-7436-C1F162637BA5</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="DAE95D5F-0062-887E-7B07-BBC87BAB8AB3">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[telefono del empleado]]></commentInRDBMS>
+<generatorID>1FF5B245-1B79-01D9-2528-3B1E60DD6795</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="305BAA3D-FC95-F3E0-9473-B9983E0415BA">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[correo del empleado]]></commentInRDBMS>
+<generatorID>CC33B0D0-D374-570D-782E-6B4A6086DE67</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0241C1EC-0A75-F463-B875-4AF8AF98B4C7" name="TBL EMPLEADOS PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:26:30 UTC</createdTime>
+<generatorID>C0EDE9D6-D20E-B0C2-B824-6DBECF0FF185</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>566CC646-6C9E-966F-2103-335B3D648DF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

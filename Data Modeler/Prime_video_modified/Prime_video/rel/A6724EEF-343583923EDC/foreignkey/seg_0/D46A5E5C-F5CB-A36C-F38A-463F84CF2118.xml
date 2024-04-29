@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D46A5E5C-F5CB-A36C-F38A-463F84CF2118" containerWithKeyObject="BA605B2A-1D20-5F7C-4F7D-3EB2FF718B38" localFKIndex="68F9B93B-E256-1BE8-1FBC-1D831F2926F5" name="TBL_VALORACIONES_TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:42:51 UTC</createdTime>
+<generatorID>5C8D0E9F-8EA5-3FA9-ADAD-F1518D2F37CD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_CONTENIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EE1C175-DDD5-B70A-302E-F6111FB0C572</referredTableID>
+<keyObject>0461A7D8-36EB-9B75-DB91-350491FEDE1B</keyObject>
+<referredKeyID>0461A7D8-36EB-9B75-DB91-350491FEDE1B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_contenido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

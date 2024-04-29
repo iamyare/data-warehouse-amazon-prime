@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="961E08EE-3700-F166-5B87-51319C0CF3CC" name="TBL HISTORIALES REPRODUCCION">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:11:06 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>HRN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID historial" id="4684D276-3D30-74D6-0BA1-AF2CC9892183">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:11:21 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID perfil" id="3D02EE5C-0DC1-1795-9EA0-D4C997935E96">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:22:16 UTC</createdTime>
+<generatorID>F38A58C5-5DAE-06EC-967E-99043279B03D</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<referedAttribute>37FFCC04-725D-E01F-5C9A-FF95BFBA2892</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72E7346F-B6BC-620C-6B86-574836216186" name="TBL_HISTORIALES_REPRODUCCION_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:12:01 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4684D276-3D30-74D6-0BA1-AF2CC9892183</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D23BAB3-A928-A6C1-8ECD-A26FD8FB9A60" name="TBL_CTO_IO_">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_IDIOMAS_ID_idioma" id="7C1915FC-B029-F256-8C0C-187CD9920D0B">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A6954C8-771E-9979-83E2-A24E22F6E188" referredColumn="82C690B6-878C-43AC-03E0-CAFD6B67A201"/>
+</associations>
+</Column>
+<Column name="TBL_CONTENIDO_ID_contenido" id="EFB5D618-2A9C-C29F-8510-54CE472050E6">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7035762B-643F-4CF9-445B-37087AD4BECF" referredColumn="11E010CB-04E9-B627-467A-9701489843E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4936CD4-7416-7837-5569-B720DF4FA3B9" name="TBL_CTO_IO__PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C1915FC-B029-F256-8C0C-187CD9920D0B"/>
+<colUsage columnID="EFB5D618-2A9C-C29F-8510-54CE472050E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="629C785F-3296-9711-C160-46FBC4FE6E84" name="TBL_CTO_IO__TBL_IDIOMAS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>88D9C04B-0607-9642-00AC-BA170778DCC4</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C1915FC-B029-F256-8C0C-187CD9920D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E11FA3A-ED90-8789-6CFD-C061D7715544" name="TBL_CTO_IO__TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>88D9C04B-0607-9642-00AC-BA170778DCC4</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFB5D618-2A9C-C29F-8510-54CE472050E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TBL_SUSCRIPCION_TARJETA" directorySegmentName="seg_0" id="DFBAFA5B-8173-A5A3-8875-A3422624221B">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:40:40 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D8AFD77B-F7E1-08F5-8C8C-531BDB12C5D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4BD90644-1208-134F-8650-1CE64EC5CC39</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_vinculacion" id="54A3A03F-E5C1-06C4-5C8B-802CFE418139">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:41:03 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="fecha_desvinculacion" id="7C18A804-F57C-00B6-CC81-2978EB9F140C">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:41:16 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

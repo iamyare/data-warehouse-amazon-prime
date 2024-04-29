@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TBL_CTO_ATS" directorySegmentName="seg_0" id="BE2C13FB-46A7-014B-CC07-21A20AF215FD">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 19:08:55 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3FB9EED9-8D50-9FD1-6A89-D724EC1E0069</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F032C17-4E01-506E-9D26-B2C26FEA76EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="papel" id="95AAC2B2-8DA5-1CAF-AF1C-3B2A7918399A">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 19:15:23 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</attribute>
+<attribute name="personaje" id="78A08969-8D4B-35A2-CEE0-520A6EA80F8D">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 19:19:00 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

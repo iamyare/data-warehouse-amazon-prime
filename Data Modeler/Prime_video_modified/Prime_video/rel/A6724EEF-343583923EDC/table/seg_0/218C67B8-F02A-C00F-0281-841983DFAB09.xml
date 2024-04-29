@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="218C67B8-F02A-C00F-0281-841983DFAB09" name="TBL_SALARIOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>62B6D04C-B205-C7D3-D301-3B60AA854006</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>SLS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha_inicio" id="B5D43537-1E3E-4755-ED38-957F2DB137E8">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>427DFA4E-1063-8EB4-7830-BE03B21460A1</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_final" id="85C96227-85A1-7DE5-65E3-4ED58875B5F9">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>AE19E8D7-6BE5-3B8E-76CC-C09769A13CFD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="E8B289C0-965D-0476-BEDF-8F88D7F4DFC4">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>B6B40DE3-8D7A-56E7-76C9-06E44F3B5C11</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_EMPLEADOS_dni_empleado" id="1257556C-0C6F-1D9B-0DBB-8DDFF2745FDE">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>283B2617-9FA0-4505-A821-FEB0D7C73003</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33F7D923-5653-9D07-44B5-661A0BE1D94D" referredColumn="A8B2E731-D3B5-2649-4785-5594B69DC7AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="977AFC0F-4207-2AEB-8B0C-D0428E8F8060" name="TBL_SALARIOS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>8242B66D-1434-D516-DDA3-5B5489EBDFF2</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5D43537-1E3E-4755-ED38-957F2DB137E8"/>
+<colUsage columnID="1257556C-0C6F-1D9B-0DBB-8DDFF2745FDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="242F9183-E703-A570-4BEC-F7CC4A19BB7E" name="TBL_SALARIOS_TBL_EMPLEADOS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>14A273B8-808A-F57B-BCF5-BC61849C3409</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1257556C-0C6F-1D9B-0DBB-8DDFF2745FDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C634F0EC-C6A9-DD74-5F9D-2F50C0A436E2" containerWithKeyObject="CB05B5E9-692B-AA2E-8BAE-B22880A00D19" localFKIndex="A2168BA7-6223-D4B0-89CC-6769FD03A82E" name="suscripcion_tarjeta_TBL_TARJETAS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>46FED699-2151-C52A-48D4-C4A17E090BFD</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_TARJETAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23CC1CB3-4C4B-3000-FDAF-12A88467FD2A</referredTableID>
+<keyObject>340FF9D4-B016-B481-A3B5-D9DDA1948C9D</keyObject>
+<referredKeyID>340FF9D4-B016-B481-A3B5-D9DDA1948C9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_tarjeta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

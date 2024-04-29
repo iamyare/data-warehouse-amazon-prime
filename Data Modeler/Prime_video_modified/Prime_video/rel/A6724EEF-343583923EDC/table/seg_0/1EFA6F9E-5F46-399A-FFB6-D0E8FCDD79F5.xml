@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EFA6F9E-5F46-399A-FFB6-D0E8FCDD79F5" name="TBL_TICKETS_SOPORTE">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>75D8B910-9405-5534-E9B1-9122FD98FAC0</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<abbreviation>TSE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ticket" id="7653372E-B3C3-5DBA-3200-D4D087970570">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>80306380-368B-9377-C543-25C88378C739</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="D4F43C96-8986-7D7A-5E1C-412B0EBD1587">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>9C95A276-4843-3811-5E26-297BBFB69B35</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="CF626981-8195-98AF-4B75-ED38BD2CB5D3">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Una breve descripción del problema o la solicitud del usuario]]></commentInRDBMS>
+<generatorID>3387D4C2-67A8-698F-A601-AB0BE5D5C7F6</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prioridad" id="7C75FE75-A368-0EFD-6948-E5B420F5EB56">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nivel de prioridad del ticket, 3 niveles]]></commentInRDBMS>
+<generatorID>B15535A2-20A1-EFCA-6192-B3AB031DA2FE</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="96225267-7D4E-F324-6C7B-6EBFD538FB25">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado del ticket (e.g resuelto, en curso, etc)]]></commentInRDBMS>
+<generatorID>2C76182D-1DBD-018F-40C5-A65F2DC854A4</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_EMPLEADOS_dni_empleado" id="68EEBA55-D5D5-D81A-D338-0841667053AC">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>0FC11C84-5F11-CBA7-69D5-3F78FC7C2843</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26A2D679-F65E-A01D-1E77-BDD042931EB0" referredColumn="A8B2E731-D3B5-2649-4785-5594B69DC7AB"/>
+</associations>
+</Column>
+<Column name="TBL_SUSCRIPTORESv1_ID_suscriptor" id="93CDC1AA-386C-10B2-A447-356A3C8F5E0D">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>633D785B-164A-A646-3E6F-AB270DCF9307</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB1D5BFC-E6CE-5363-10A6-C854E0BB981B" referredColumn="F9B7DEAA-C31A-FD51-7561-A363F0C81F4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="931D76F6-3231-F514-F83C-D372F2513AC5" name="TBL_TICKETS_SOPORTE_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>7873B4C7-609C-9949-A2A7-B66C4E1C2216</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7653372E-B3C3-5DBA-3200-D4D087970570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69129EBB-6604-B4BD-22EF-AD3FB08839D6" name="TBL_TICKETS_SOPORTE_TBL_EMPLEADOS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>C66D99AC-F410-AFA6-34C6-B084DC53D2A2</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68EEBA55-D5D5-D81A-D338-0841667053AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99EEEFA6-EB87-0299-019B-F7FE7D42ECC8" name="TBL_TICKETS_SOPORTE_TBL_SUSCRIPTORESv1_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 21:25:11 UTC</createdTime>
+<generatorID>C528D324-F632-BAE0-064D-2964DFDB93B6</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93CDC1AA-386C-10B2-A447-356A3C8F5E0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

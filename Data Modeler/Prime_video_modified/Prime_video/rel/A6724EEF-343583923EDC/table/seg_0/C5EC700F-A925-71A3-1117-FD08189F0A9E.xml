@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5EC700F-A925-71A3-1117-FD08189F0A9E" name="TBL_CTO_CTS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TBL_CONTENIDO_ID_contenido" id="58EDAE85-F54D-2349-FB9C-B09007CEE820">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0E9E14C-AB4B-20FD-AFCF-DFF80E218BED" referredColumn="11E010CB-04E9-B627-467A-9701489843E2"/>
+</associations>
+</Column>
+<Column name="TBL_CATEGORIAS_ID_categoria" id="83B6892B-1C71-01A2-3AB9-71306A9F2429">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2DAA6E7-5F94-270A-A66A-8A1F4B1C5FD1" referredColumn="7E52F771-A820-D699-6FF1-4B00B6053AAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34D8D8CC-68B6-3A66-47B4-3C4DF9149CED" name="Relation_4_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EDAE85-F54D-2349-FB9C-B09007CEE820"/>
+<colUsage columnID="83B6892B-1C71-01A2-3AB9-71306A9F2429"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EEFEA40-63DA-C67A-1AAA-6E5E04FA145B" name="Relation_4_TBL_CONTENIDO_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>4EA210D3-B8E8-CB91-4B0A-A183AB9431B0</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EDAE85-F54D-2349-FB9C-B09007CEE820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DA448AF-8E0D-0740-9F11-C9D75317E6A4" name="Relation_4_TBL_CATEGORIAS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:30:37 UTC</createdTime>
+<generatorID>4EA210D3-B8E8-CB91-4B0A-A183AB9431B0</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B6892B-1C71-01A2-3AB9-71306A9F2429"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

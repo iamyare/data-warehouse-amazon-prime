@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5599C31-7AE6-5709-1397-5B19925342BF" name="TBL_EMPLEADOS">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:09:31 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<abbreviation>EPS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni_empleado" id="A8B2E731-D3B5-2649-4785-5594B69DC7AB">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:10:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[dni del empleado]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="4A8F873C-D526-2038-C257-1BF4F4A21809">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:11:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primer y segundo nombre del empleado]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="7C69CC47-C5D4-A444-616D-5A3C4100D912">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:11:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellidos del empleado]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="A438B0C8-3C4C-C25D-DF99-F344645CFC82">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:11:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Genero del empleado (F o M)]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="714E8799-7C21-F0B2-7436-C1F162637BA5">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:14:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de nacimiento del empleado]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="1FF5B245-1B79-01D9-2528-3B1E60DD6795">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:14:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[telefono del empleado]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="CC33B0D0-D374-570D-782E-6B4A6086DE67">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:15:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[correo del empleado]]></commentInRDBMS>
+<ownerDesignName>Prime_video</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0EDE9D6-D20E-B0C2-B824-6DBECF0FF185" name="TBL_EMPLEADOS_PK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 01:10:14 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8B2E731-D3B5-2649-4785-5594B69DC7AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

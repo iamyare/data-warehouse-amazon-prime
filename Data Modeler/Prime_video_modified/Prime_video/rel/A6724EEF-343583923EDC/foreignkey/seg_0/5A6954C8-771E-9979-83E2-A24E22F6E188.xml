@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A6954C8-771E-9979-83E2-A24E22F6E188" containerWithKeyObject="7D23BAB3-A928-A6C1-8ECD-A26FD8FB9A60" localFKIndex="629C785F-3296-9711-C160-46FBC4FE6E84" name="TBL_CTO_IO__TBL_IDIOMAS_FK">
+<createdBy>Esther</createdBy>
+<createdTime>2024-03-09 19:42:42 UTC</createdTime>
+<generatorID>88D9C04B-0607-9642-00AC-BA170778DCC4</generatorID>
+<ownerDesignName>Prime_video</ownerDesignName>
+<referredTableLongName>TBL_IDIOMAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8386A51C-9A5B-5CC6-4B4F-F399B79FBFA7</referredTableID>
+<keyObject>8CC1288D-F166-41A9-323A-D19BD037D513</keyObject>
+<referredKeyID>8CC1288D-F166-41A9-323A-D19BD037D513</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_idioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

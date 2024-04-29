@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="paga" directorySegmentName="seg_0" id="F914054C-D069-6AA7-DDB2-2719AC2F6E6D">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 21:29:04 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<sourcePk>4FD68900-5B76-C094-8FF5-E523B9C64694</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>935B18CD-3BD5-450A-8B23-2D162D29B668</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD8A6F57-774F-11B6-7483-A02B8A87D588</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

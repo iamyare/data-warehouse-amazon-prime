@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TBL LISTAS REPRODUCCION TBL PERFILES FK" directorySegmentName="seg_0" id="D50A969D-A2A4-B270-590B-59A55E3D3FBB">
+<createdBy>Esther</createdBy>
+<createdTime>2024-02-23 22:22:05 UTC</createdTime>
+<ownerDesignName>Prime_video</ownerDesignName>
+<engineerTo>
+<item key="A6724EEF-9957-E1E2-AF22-343583923EDC" value="true"/>
+</engineerTo>
+<sourcePk>5B6FA500-0CDD-0F96-EBE1-01488F781BA3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DCC0CAF-D509-4212-20B3-29F2AB28F78A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8B16B36-F35F-1A2F-6B1D-E52FDF551BCC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
