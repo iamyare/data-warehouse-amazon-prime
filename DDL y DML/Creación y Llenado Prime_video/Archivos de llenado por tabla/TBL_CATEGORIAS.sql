@@ -1,0 +1,14 @@
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (1, 'Drama');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (2, 'Action');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (3, 'Sci-Fi');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (4, 'Romance');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (5, 'Comedy');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (6, 'Horror');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (7, 'Action');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (8, 'Crime');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (9, 'Thriller');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (10, 'Documentary');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (11, 'Adventure');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (12, 'Animation');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (13, 'Mystery');
+insert into TBL_CATEGORIAS (ID_CATEGORIA,NOMBRE) values (14, 'Musical');

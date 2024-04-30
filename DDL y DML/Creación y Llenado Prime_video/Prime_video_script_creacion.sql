@@ -17,7 +17,7 @@ CREATE TABLE tbl_capitulos (
     titulo                     VARCHAR2(100) NOT NULL,
     descripcion                VARCHAR2(250) NOT NULL,
     fecha_lanzamiento          DATE NOT NULL,
-    valoracion                 NUMBER(1, 2),
+    valoracion                 NUMBER(3, 1),
     tbl_contenido_id_contenido NUMBER NOT NULL
 );
 

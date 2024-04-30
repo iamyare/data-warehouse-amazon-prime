@@ -1,0 +1,10 @@
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (1, 'Korean');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (2, 'Spanish');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (3, 'English');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (4, 'French');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (5, 'Portuguese');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (6, 'Chinese');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (7, 'Japanese');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (8, 'German');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (9, 'Italian');
+insert into TBL_IDIOMAS (ID_IDIOMA, IDIOMA) values (10, 'Russian');

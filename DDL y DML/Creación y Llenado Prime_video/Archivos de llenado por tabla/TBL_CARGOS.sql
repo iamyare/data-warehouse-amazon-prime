@@ -1,0 +1,10 @@
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (1, 'Research Assistant I');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (2, 'Electrical Engineer');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (3, 'Business Systems Development Analyst');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (4, 'Operator II');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (5, 'Operator I');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (6, 'Financial Analyst');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (7, 'VP Marketing');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (8, 'Associate Professor');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (9, 'Marketing Assistant');
+insert into TBL_CARGOS (ID_CARGO, CARGO) values (10, 'Automation Specialist I');
